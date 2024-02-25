@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+body {
+    overflow: hidden;
+    user-select: none;
+}
+
+.buy-car {
+    position: relative;
+    
+    top: 22vw;
+    left: 35.5vw;
+
+    width: 25vw;
+    height: 10vw;
+
+    background-color: rgb(38, 38, 38);
+    
+    border-radius: 18px;
+}
+
+#text-uber {
+    position: relative;
+
+    top: 1vw;
+    left: 8.9vw;
+
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1vw;
+
+    color: green;
+}
+
+#sure-text {
+    position: relative;
+
+    top: 1.5vw;
+    left: 2.5vw;
+
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1vw;
+
+    color: white;
+}
+
+#yea-buy {
+    box-sizing: border-box;
+
+    position: absolute;
+
+    width: 5.9vw;
+    height: 2.4vw;
+
+    left: 8.5vw;
+    top: 6.9vw;
+
+    background: linear-gradient(131.17deg, rgba(0, 0, 0, 0.22) 0%, rgba(21, 252, 0, 0.425) 100%);
+    backdrop-filter: blur(20px);
+
+    border-radius: 6px;
+    border: none;
+
+    font-family: 'PF DinDisplay Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+
+    text-align: center;
+
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
